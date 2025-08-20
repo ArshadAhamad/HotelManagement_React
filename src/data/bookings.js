@@ -1,0 +1,117 @@
+// Mock data for hotel bookings
+const bookings = [
+  { 
+    id: 'B1001', 
+    guestId: 2,
+    guest: 'John Smith', 
+    roomId: 101,
+    room: '101 - Deluxe Ocean View', 
+    checkIn: '2023-06-15', 
+    checkOut: '2023-06-18', 
+    status: 'completed', 
+    total: 897,
+    paymentStatus: 'paid',
+    specialRequests: 'Extra pillows',
+    createdAt: '2023-06-01'
+  },
+  { 
+    id: 'B1002', 
+    guestId: 3,
+    guest: 'Sarah Johnson', 
+    roomId: 205,
+    room: '205 - Premium Suite', 
+    checkIn: '2023-06-20', 
+    checkOut: '2023-06-25', 
+    status: 'confirmed', 
+    total: 1495,
+    paymentStatus: 'paid',
+    specialRequests: 'Late check-in, around 7 PM',
+    createdAt: '2023-06-05'
+  },
+  { 
+    id: 'B1003', 
+    guestId: 6,
+    guest: 'Michael Brown', 
+    roomId: 310,
+    room: '310 - Standard Room', 
+    checkIn: '2023-06-22', 
+    checkOut: '2023-06-24', 
+    status: 'confirmed', 
+    total: 398,
+    paymentStatus: 'pending',
+    specialRequests: '',
+    createdAt: '2023-06-10'
+  },
+  { 
+    id: 'B1004', 
+    guestId: 7,
+    guest: 'Emily Davis', 
+    roomId: 402,
+    room: '402 - Family Suite', 
+    checkIn: '2023-06-18', 
+    checkOut: '2023-06-23', 
+    status: 'in-progress', 
+    total: 2495,
+    paymentStatus: 'paid',
+    specialRequests: 'Crib for baby, non-smoking room',
+    createdAt: '2023-06-02'
+  },
+  { 
+    id: 'B1005', 
+    guestId: 8,
+    guest: 'Robert Wilson', 
+    roomId: 115,
+    room: '115 - Executive Room', 
+    checkIn: '2023-06-25', 
+    checkOut: '2023-06-28', 
+    status: 'pending', 
+    total: 1047,
+    paymentStatus: 'pending',
+    specialRequests: 'High floor, away from elevator',
+    createdAt: '2023-06-15'
+  },
+  { 
+    id: 'B1006', 
+    guestId: 9,
+    guest: 'Jennifer Lee', 
+    roomId: 102,
+    room: '102 - Deluxe Ocean View', 
+    checkIn: '2023-06-30', 
+    checkOut: '2023-07-05', 
+    status: 'confirmed', 
+    total: 1495,
+    paymentStatus: 'paid',
+    specialRequests: 'Anniversary celebration, please prepare something special',
+    createdAt: '2023-06-10'
+  },
+  { 
+    id: 'B1007', 
+    guestId: 10,
+    guest: 'David Miller', 
+    roomId: 310,
+    room: '310 - Standard Room', 
+    checkIn: '2023-07-01', 
+    checkOut: '2023-07-03', 
+    status: 'pending', 
+    total: 398,
+    paymentStatus: 'pending',
+    specialRequests: '',
+    createdAt: '2023-06-18'
+  },
+  { 
+    id: 'B1008', 
+    guestId: 11,
+    guest: 'Lisa Anderson', 
+    roomId: 206,
+    room: '206 - Premium Suite', 
+    checkIn: '2023-07-05', 
+    checkOut: '2023-07-10', 
+    status: 'pending', 
+    total: 2495,
+    paymentStatus: 'pending',
+    specialRequests: 'Early check-in if possible',
+    createdAt: '2023-06-20'
+  }
+];
+
+export default bookings;
